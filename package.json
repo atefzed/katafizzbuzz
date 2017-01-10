@@ -1,0 +1,17 @@
+{
+  "name": "kata-fizzbuzz",
+  "version": "0.0.1",
+  "description": "fizzbuzz",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "node app/app.js",
+    "test": "mocha tests/**/*.js"
+  },
+  "author": "azaafouri",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7"
+  }
+}
